@@ -133,6 +133,7 @@ export var UNITS = {
   "<psi>" : [["psi"], 6894.76, "pressure", ["<kilogram>"],["<meter>","<second>","<second>"]],
   "<cmh2o>" : [["cmH2O"], 98.0638, "pressure", ["<kilogram>"],["<meter>","<second>","<second>"]],
   "<inh2o>" : [["inH2O"], 249.082052, "pressure", ["<kilogram>"],["<meter>","<second>","<second>"]],
+  "<mho>" : [["mHO"], 9806.38, "pressure", ["<kilogram>"],["<meter>","<second>","<second>"]],
 
   /* viscosity */
   "<poise>"  : [["P","poise"], 0.1, "viscosity", ["<kilogram>"],["<meter>","<second>"] ],

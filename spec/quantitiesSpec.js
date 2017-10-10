@@ -146,6 +146,10 @@ describe("js-quantities", function() {
       qty = Qty("1 cmH2O");
       expect(qty.scalar).toBe(1);
       expect(qty.numerator).toEqual(["<cmh2o>"]);
+
+      qty = Qty("1 mHO");
+      expect(qty.scalar).toBe(1);
+      expect(qty.numerator).toEqual(["<mho>"]);
     });
 
     it("should create with denominator", function() {
